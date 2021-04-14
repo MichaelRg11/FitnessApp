@@ -13,6 +13,7 @@ const App = () => (
       <Route exact path="/exercise" component={ExercisesConstainer} />
       <Route exact path="/exercise/new" component={ExercisesNewContainer} />
       <Route exact path="/example" component={Example} />
+      <Route exact path="/" component={ExercisesConstainer} />
       <Route component={NotFound} />
     </Switch>
   </Router>
